@@ -1,0 +1,12 @@
+body {
+  background-color: #030907;
+}
+.input-field {
+  width: 700px;
+  font-size: 1em;
+  margin-top: 3em;
+  color: #f21d23;
+  background-color: #030907;
+  border: 1px solid #f21d23;
+  outline: none;
+}
