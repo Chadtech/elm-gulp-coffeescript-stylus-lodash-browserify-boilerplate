@@ -66,9 +66,9 @@ elm-package.json
 ``` json
 {
   "version": "1.0.0",
-  "summary": "helpful summary of your project, less than 80 characters",
-  "repository": "https://github.com/user/project.git",
-  "license": "BSD3",
+  "summary": "Elm-0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
+  "repository": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate",
+  "license": "you can use it",
   "source-directories": [
     "./src/elm"
   ],
