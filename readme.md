@@ -6,6 +6,15 @@ This is my
 
 Its basically a template development environment with all of my favorite dependendies. It also might be useful to look at, if you are learning how to use Elm (especially you share my programming orientation).
 
+How to get going..
+```
+> npm install
+> elm package install
+> gulp
+
+then open up http://localhost:2996
+```
+
 package.json
 ``` json
 {
