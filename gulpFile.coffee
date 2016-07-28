@@ -8,11 +8,10 @@ coffeeify  = require 'coffeeify'
 browserify = require 'browserify'
 
 paths =
-  public:   './public'
-  elm:      './src/elm/*.elm'
-  css:      './src/css/*.styl'
-  coffee:   './src/js/*.coffee'
-  electron: './main-electron.coffee'
+  public: './public'
+  elm:    './src/elm/*.elm'
+  css:    './src/css/*.styl'
+  coffee: './src/js/*.coffee'
 
 gulp.task 'coffee', ->
   bCache = {}
@@ -39,9 +38,13 @@ gulp.task 'elm', ->
   cmd += './public'
   cmd += '/elm.js'
 
-  cp.exec cmd, (err, stdout) ->
-    console.log 'ELM ERROR', err if err
-    console.log 'ELM', stdout
+  cp.exec cmd, (error, stdout) ->
+    if error
+      console.log "Elm error :^( "
+      console.log error
+    else
+      console.log 'Elm says .. '
+      console.log (stdout.slice 0, stdout.length - 1)
 
 gulp.task 'watch', ->
   autowatch gulp,
@@ -49,7 +52,6 @@ gulp.task 'watch', ->
     stylus:   paths.css
     coffee:   paths.coffee
     elm:      paths.elm
-    electron: paths.electron
 
 gulp.task 'server', -> require './server'
 
