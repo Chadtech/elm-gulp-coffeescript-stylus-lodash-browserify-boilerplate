@@ -1,11 +1,11 @@
 {
-  "name": "Elm-0.17-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
+  "name": "Elm-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
   "version": "1.0.4",
-  "description": "Elm-0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
+  "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate"
+    "url": "https://github.com/Chadtech/elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate"
   },
   "keywords": [
     "elm",
@@ -16,7 +16,7 @@
     "lodash",
     "stylus",
     "browserify",
-    "elm-0.17"
+    "elm"
   ],
   "dependencies": {
     "body-parser": "^1.15.0",

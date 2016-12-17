@@ -19,12 +19,12 @@ package.json
 ``` json
 {
   "name": "Elm-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate.git"
+    "url": "https://github.com/Chadtech/elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate"
   },
   "keywords": [
     "elm",
@@ -35,7 +35,7 @@ package.json
     "lodash",
     "stylus",
     "browserify",
-    "elm-0.17"
+    "elm"
   ],
   "dependencies": {
     "body-parser": "^1.15.0",
@@ -55,9 +55,10 @@ package.json
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "Chadtech chadtech@programhouse.us",
+  "author": "Chadtech chadtech0@gmail.com",
   "license": "you can use it"
 }
+
 
 
 ```
