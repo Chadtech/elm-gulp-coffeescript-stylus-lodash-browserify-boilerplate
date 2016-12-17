@@ -1,13 +1,13 @@
-import Html             exposing (p, text)
+import Html             exposing (p, text, program)
 import Html.Attributes  exposing (class)
-import Html.App         as App
+import Html
 import Types            exposing (..)
 import Ports            exposing (..)
 import View             exposing (view)
 import Debug
 
 main =
-  App.program
+  program
   { init          = (Model "Elm 0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate!", Cmd.none) 
   , view          = view
   , update        = update

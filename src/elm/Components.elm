@@ -10,7 +10,7 @@ import Json.Decode      as Json
 
 onKeyDown : (Int -> Msg) -> Attribute Msg
 onKeyDown msg =
-  on "keydown" <|Json.map msg keyCode
+  on "keydown" <| Json.map msg keyCode
 
 inputField : String -> Html Msg
 inputField str =

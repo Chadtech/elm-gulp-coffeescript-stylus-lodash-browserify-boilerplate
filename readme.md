@@ -2,7 +2,7 @@
 
 This is my 
 
-# Elm-0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate
+# Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate
 
 Its basically a template development environment with all of my favorite dependencies. It also might be useful to look at, if you are learning how to use Elm (especially you share my programming orientation).
 
@@ -18,13 +18,13 @@ then open up http://localhost:2996
 package.json
 ``` json
 {
-  "name": "Elm-0.17-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
+  "name": "Elm-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
   "version": "1.0.3",
-  "description": "Elm-0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
+  "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate"
+    "url": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate.git"
   },
   "keywords": [
     "elm",
@@ -55,7 +55,7 @@ package.json
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "Chadtech chadtech0@gmail.com",
+  "author": "Chadtech chadtech@programhouse.us",
   "license": "you can use it"
 }
 
@@ -65,22 +65,23 @@ package.json
 elm-package.json
 ``` json
 {
-  "version": "1.0.0",
-  "summary": "Elm-0.17 Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
-  "repository": "https://github.com/Chadtech/elm0.17-gulp-coffeescript-stylus-lodash-browserify-boilerplate",
+  "version": "1.0.2",
+  "summary": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
+  "repository": "https://github.com/Chadtech/elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate.git",
   "license": "you can use it",
   "source-directories": [
-    "./src/elm"
+      "./src/elm"
   ],
   "exposed-modules": [],
-    "dependencies": {
-        "elm-lang/core": "4.0.3 <= v < 5.0.0",
-        "elm-lang/html": "1.1.0 <= v < 2.0.0",
-        "evancz/elm-http": "3.0.1 <= v < 4.0.0"
-    },
-    "elm-version": "0.17.1 <= v < 0.18.0"
+  "dependencies": {
+      "elm-lang/core": "5.0.0 <= v < 6.0.0",
+      "elm-lang/html": "2.0.0 <= v < 3.0.0"
+  },
+  "elm-version": "0.18.0 <= v < 0.19.0"
 }
+
 ```
 
 **updates**
-20160728 - Bringing Elm Package up to 17.1
+20160728 - Bringing Elm Package up to 0.17.1
+20161216 - Bringing Elm Package up to 0.18.0
