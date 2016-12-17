@@ -83,5 +83,7 @@ elm-package.json
 ```
 
 **updates**
+
 20160728 - Bringing Elm Package up to 0.17.1
+
 20161216 - Bringing Elm Package up to 0.18.0
