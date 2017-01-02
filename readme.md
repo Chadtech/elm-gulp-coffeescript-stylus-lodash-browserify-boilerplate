@@ -18,8 +18,8 @@ then open up http://localhost:2996
 package.json
 ``` json
 {
-  "name": "Elm-Gulp-Coffeescript-Stylus-Lodash-Browserify-Boilerplate",
-  "version": "1.0.4",
+  "name": "elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate",
+  "version": "1.0.5",
   "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
