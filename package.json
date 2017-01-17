@@ -15,7 +15,7 @@
     "coffeescript",
     "lodash",
     "stylus",
-    "browserify",
+    "browserify"
   ],
   "dependencies": {
     "body-parser": "^1.15.0",
