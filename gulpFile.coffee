@@ -33,10 +33,9 @@ gulp.task 'stylus', ->
 
 gulp.task 'elm', ->  
   cmd  = 'elm-make '
-  cmd += paths.elm
+  cmd += './src/elm/main.elm'
   cmd += ' --output '
-  cmd += './public'
-  cmd += '/elm.js'
+  cmd += './public/elm.js'
 
   cp.exec cmd, (error, stdout) ->
     if error
