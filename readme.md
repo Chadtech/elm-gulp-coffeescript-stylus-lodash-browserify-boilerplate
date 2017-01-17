@@ -35,7 +35,6 @@ package.json
     "lodash",
     "stylus",
     "browserify",
-    "elm"
   ],
   "dependencies": {
     "body-parser": "^1.15.0",
