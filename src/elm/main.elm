@@ -1,36 +1,48 @@
-import Html             exposing (p, text)
-import Html.Attributes  exposing (class)
+import Html
 import Types            exposing (..)
 import Ports            exposing (..)
 import View             exposing (view)
-import Debug
+
+
+
+
+-- MAIN
+
 
 main =
   Html.program
-  { init          = (Model "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate!", Cmd.none) 
+  { init          = (Model "", Cmd.none) 
   , view          = view
   , update        = update
   , subscriptions = subscriptions
   }
 
+
+-- SUBSCRIPTIONS
+
+
 subscriptions : Model -> Sub Msg
 subscriptions model =
-  response DoTheThing
+  fromJS HandlePort
+
+
+-- UPDATE
+
 
 update : Msg -> Model -> (Model, Cmd Msg)
-update message m =
+update message model =
   case message of 
 
     UpdateField str ->
-      (Model str, Cmd.none)
+      Model str ! []
 
-    CheckForEnter code ->
+    CheckIfEnter code ->
       if code == 13 then 
-        (Model "Submitted!", Cmd.none)
+        Model "Submitted!" ! []
       else
-        (m, Cmd.none)
+        model ! []
 
-    DoTheThing str ->
-      (Model str, Cmd.none)
+    HandlePort str ->
+      Model str ! []
 
 

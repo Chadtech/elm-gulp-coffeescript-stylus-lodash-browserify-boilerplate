@@ -19,7 +19,7 @@ package.json
 ``` json
 {
   "name": "elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
@@ -66,7 +66,7 @@ package.json
 elm-package.json
 ``` json
 {
-  "version": "1.0.2",
+  "version": "1.0.6",
   "summary": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "repository": "https://github.com/Chadtech/elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate.git",
   "license": "you can use it",
@@ -84,6 +84,8 @@ elm-package.json
 ```
 
 **updates**
+
+20170116 - Just making it better generally. Removed component and style files. Better names. Better look. Made gulp less error prone.
 
 20160728 - Bringing Elm Package up to 0.17.1
 

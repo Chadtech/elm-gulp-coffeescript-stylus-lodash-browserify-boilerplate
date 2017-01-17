@@ -1,10 +1,10 @@
 _         = require 'lodash'
 app       = Elm.Main.fullscreen()
-{request} = app.ports
+{fromJS} = app.ports
 
-respond = (thing) ->
+toJS = (thing) ->
   app.ports.response.send thing
 
-request.subscribe (thing) ->
+fromJS.subscribe (thing) ->
   'this is a ' + thing
 

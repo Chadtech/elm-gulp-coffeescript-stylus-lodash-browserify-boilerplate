@@ -1,6 +1,6 @@
 {
   "name": "elm-gulp-coffeescript-stylus-lodash-browserify-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Elm Gulp Coffeescript Stylus Lodash Browserify Boilerplate",
   "main": "gulpFile.coffee",
   "repository": {
